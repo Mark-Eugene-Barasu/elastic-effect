@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.elastic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    background-color: #f0f0f0;
+}
+
+.elastic-div {
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.elastic-div.expanded {
+    width: 300px;
+    height: 300px;
+}
+
+.elastic-div.shrunk {
+    width: 100px;
+    height: 100px;
+}
